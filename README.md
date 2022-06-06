@@ -1,3 +1,5 @@
+# This repository requires the use of the Pandas library.
+
 # Files included and explanations
 
 * data.py: This houses most of the functions that deal with the actual data manipulation.
