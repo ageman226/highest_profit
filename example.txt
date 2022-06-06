@@ -1,5 +1,5 @@
 The total amount of data is 25500(not including titles)
-The total amount of data is 25131(not including titles)
+The total amount of data with profit numeric data is 25131(not including titles)
     Year  Rank                 Company  Revenue (in millions)  Profit (in millions)
 0   2005     2             Exxon Mobil               270772.0               25330.0
 1   1999     2              Ford Motor               144416.0               22071.0

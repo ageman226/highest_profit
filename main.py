@@ -14,7 +14,7 @@ def main():
 
     # # Total amount of rows of data that is not numeric.
     df = getNumericRows(df)
-    print("The total amount of data is " + str(countData(df)) + "(not including titles)")
+    print("The total amount of data with profit numeric data is " + str(countData(df)) + "(not including titles)")
     # print("The total amount of data that has numeric profit is " + str(countNumericProfitData(csvfile)))
 
     # # List the top 20 companies after writing to a json file
