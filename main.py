@@ -18,7 +18,6 @@ def main():
     # print("The total amount of data that has numeric profit is " + str(countNumericProfitData(csvfile)))
 
     # # List the top 20 companies after writing to a json file
-    # df = df.sort_values(by=["Profit (in millions)"], ascending=False)
     dfJson = writeJson(df, jsonfile)
     topRows = sortData(dfJson)
     print(topRows)
