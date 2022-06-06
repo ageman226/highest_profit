@@ -37,7 +37,7 @@ def getNumericRows(df, dict="Profit (in millions)"):
     return df
 
 def writeJson(df, jsonfile):
-    """writes to a new JSON file that from the provided DataFrame
+    """writes to a new JSON file from the provided DataFrame
 
     Args:
         df (DataFrame): The DataFrame that is changed into a json file.
