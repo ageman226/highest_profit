@@ -2,10 +2,11 @@ from data import *
 import pandas as pd
 
 def main():
-
+    # The file names provided
     csvfile = "profits.csv"
     jsonfile = "data2.json"
     
+    # Get the initial data
     df = getData(csvfile)
 
     # Total amount of rows of data not including first row
